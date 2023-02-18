@@ -27,3 +27,10 @@ del dic['age']
 print(dic)
 del dic
 
+# Example 6
+english = {'春':'Spring', '夏':'Summer', '秋':'Fall', '冬':'Winter'}
+# 字典內容
+del english ['秋'] # 刪除字典指定鍵值的元素
+print(english)
+del english # 刪除整個字典
+        
