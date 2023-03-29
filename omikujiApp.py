@@ -1,5 +1,5 @@
 import tkinter as tk
-import random
+import random # SSIS - 118
 
 def dispLabel():
     kuji = ["大吉", "中吉", "小吉", "凶", "半吉", "未吉", "大大吉"]
