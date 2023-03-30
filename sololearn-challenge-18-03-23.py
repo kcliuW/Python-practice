@@ -15,8 +15,8 @@ print(-15//10.0)
 '''
 Question 3
 '''
-# Function can receive an array as a parameter.
-# Answer : True
+# Function can receive an array as a parameter.°
+# Answer : True•
 
 '''
 Question 4
