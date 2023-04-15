@@ -1,0 +1,23 @@
+'''
+Question 1
+'''
+n = "89"
+n = n.zfill(6)
+print(n)
+
+
+'''
+Question 2
+'''
+
+rows = int(input("Enter number of rows: "))
+k = 0
+for i in range(1, rows + 1):
+    for space in range(1, (rows-i)+1):
+        print(end=" ")
+    while k!=(2*i-1):
+        print(" *", end="")
+        k += 1
+    k = 0
+    print() 
+        
