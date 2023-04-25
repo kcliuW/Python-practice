@@ -111,3 +111,35 @@ n = 53179
 while n != 0:
     print("%d" %(n%10), end='')
     n //= 10
+
+'''
+Quiz 1
+'''
+
+list1 = ['b', 12, 4, 'a']
+list2 = ['i','ii','iii','iv']
+result = zip(list1,list2)
+print(dict(result))
+
+'''
+Quiz 2
+'''
+
+import numpy as np
+
+a = np.array([1,2,3,4])
+b = np.array([3,4,5,6])
+c = np.intersect1d(a,b)
+print(c.sum())
+
+'''
+Quiz 3
+'''
+a = 20
+def increase(c):
+    b = 1
+    while b <= 5:
+        print(b, c)
+        c = c + 10  # b = 1, c = 20. b = 2, c = 30. b = 3, c = 40. b = 4, c = 50. b = 5, c = 60.
+        b = b + 1
+increase(a)
