@@ -58,3 +58,15 @@ print(dic)
 friendA = {"Andy", "Axel", "Michael", "Julia"}
 friendB = {"Peter", "Axel", "Andy", "Tom"}
 print(friendA & friendB)
+
+fruit1 = {'cherry','banana','mango'}
+fruit2 = ['kiwi','blueberry']
+updated_set = fruit1 
+updated_set.update(fruit2)
+print(updated_set) 
+
+fruit3 = {'cherry','banana','mango'}
+fruit4 = ['kiwi','blueberry']
+fruit3.update(fruit4)
+renew_set = fruit3
+print(renew_set)
